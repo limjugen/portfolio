@@ -17,3 +17,31 @@ li {
 img {
     max-width: 100%;
 }
+body {
+    font-family: sans-serif;
+    background: #222;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.menu__btn {
+    display: none;
+}
+.menu__list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
